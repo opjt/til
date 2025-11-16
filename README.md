@@ -10,14 +10,15 @@
 ##
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 29개)
+### TIL TOC (최근 수정순, 총 30개)
 
+- [GO의 TCP 소켓 backlog 이야기](docs/go/~/server/socket-backlog.md)
+- [GO_INDEX](docs/go/go_index.md)
 - [sysctl](docs/Tech/~/linux/sysctl.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
 - [Linux ldd](docs/Tech/~/linux/linux_ldd.md)
 - [Uber-fx DI framework](docs/go/~/library/uber-fx-0.md)
 - [fallthrough keyword](docs/go/~/basic/fallthrough.md)
-- [GO_INDEX](docs/go/go_index.md)
 - [Verify Interface Compliance](docs/go/~/style-guide/verify-interface-compliance.md)
 - [CNCF (Cloud Native Computing Foundation)](docs/Tech/~/container/cncf.md)
 - [GOPATH](docs/go/~/basic/gopath.md)

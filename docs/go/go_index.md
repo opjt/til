@@ -10,6 +10,10 @@ order: 2
 
 - [Verify Interface Compliance(인터페이스 검증)](~/style-guide/verify-interface-compliance.md)
 
+### Server
+
+- [tcp socket backlog](~/server/socket-backlog.md)
+
 ### Basic
 
 - [fallthrough](~/basic/fallthrough.md)
