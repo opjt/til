@@ -27,6 +27,7 @@ order: 2
 
 ### Git
 
+- [git bare](~/git/git-init-bare.md) - 상남자는 github/gitlab 안씀
 - [switch Remote branch](~/git/git-switch-remote.md)
 - [git diff](~/git/git-diff.md)
 
