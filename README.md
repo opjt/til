@@ -12,8 +12,8 @@
 <!-- AUTO_TOC_START -->
 ### TIL TOC (최근 수정순, 총 32개)
 
-- [nerdctl](docs/Tech/~/container/nerdctl.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
+- [nerdctl](docs/Tech/~/container/nerdctl.md)
 - [git bare](docs/Tech/~/git/git-init-bare.md)
 - [GO의 TCP 소켓 backlog 이야기](docs/go/~/server/socket-backlog.md)
 - [GO_INDEX](docs/go/go_index.md)
