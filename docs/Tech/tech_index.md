@@ -27,6 +27,7 @@ order: 2
 
 ### Git
 
+- [gpg-key](~/git/gpg-key.md) - 내 싸인이 들어간 커밋이에요
 - [git bare](~/git/git-init-bare.md) - 상남자는 github/gitlab 안씀
 - [switch Remote branch](~/git/git-switch-remote.md)
 - [git diff](~/git/git-diff.md)

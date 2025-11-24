@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import os
 import sys
 import re
 from pathlib import Path
@@ -62,7 +61,7 @@ def update_index(category, filename, description):
         return False
 
     # 링크 생성
-    link_text = f"- [{filename}]({category}/{filename}.md)"
+    link_text = f"- [{filename}](~/{category}/{filename}.md)"
     if description:
         link_text += f" - {description}"
 
@@ -98,7 +97,7 @@ def update_index(category, filename, description):
         content = "\n".join(lines)
 
     index_file.write_text(content, encoding="utf-8")
-    print(f"✓ index.md에 링크 추가")
+    print("✓ index.md에 링크 추가")
 
     return True
 
@@ -118,7 +117,7 @@ def main():
         print("")
         print("✓ 완료! 다음 파일이 준비되었습니다:")
         print(f"  - {category}/{filename}.md")
-        print(f"  - index.md 업데이트됨")
+        print("  - index.md 업데이트됨")
     else:
         print("")
         print("! 작업이 취소되었습니다")

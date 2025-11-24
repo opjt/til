@@ -10,8 +10,9 @@
 ##
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 32개)
+### TIL TOC (최근 수정순, 총 33개)
 
+- [GPG KEY](docs/Tech/~/git/gpg-key.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
 - [nerdctl](docs/Tech/~/container/nerdctl.md)
 - [git bare](docs/Tech/~/git/git-init-bare.md)
