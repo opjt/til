@@ -54,4 +54,4 @@ gpg --armor --export 8BA288F0AB5A68A5 # 앞서 확인한 키
 
 GPG 키에 passphrase가 설정되어 있는 경우 `GPG_TTY` 환경변수를 설정해주지 않으면 암호를 묻는 화면이 출력되지 않아서 커밋이 찍히지 않을 수도 있습니다.
 
-`export GPG_TTY=$(tty)`
+`export GPG_TTY=$TTY`
