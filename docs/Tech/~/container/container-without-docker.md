@@ -41,7 +41,7 @@ mkdir testdir
 
 ### pivot_root
 
-pivot_root는 루트 디렉토리를 바꾸는 역할이다어? 그러면chroot랑 똑같은 거 아닌가요?
+pivot_root는 루트 디렉토리를 바꾸는 역할이다. 어? 그러면chroot랑 똑같은 거 아닌가요?
 
 - 아님. `pivot_root`는 루트파일 시스템을 완전히 교체한다
 - 이는 커널 system call로 `chroot`같은 눈속임 형태와 완전히 다름.
