@@ -15,6 +15,7 @@ order: 2
 
 ### Linux
 
+- [unix-domain-socket](~/linux/unix-domain-socket.md) - 로컬에서 통신하는 친구들
 - [sysctl](~/linux/sysctl.md) - 커널 파라미터
 - [ldd, shared lib](~/linux/linux_ldd.md) - 난 라이브러리 없으면 살 수 없어
 - [ulimit](~/linux/ulimit.md)
