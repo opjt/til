@@ -45,6 +45,12 @@ order: 2
 - [AES](~/security/aes-crypt.md)
 - [pubkey](~/security/public-key-crypto.md) — 공개키 암호 방식의 이해
 
+### PS
+
+> Problem solving (coding challenges)
+
+- [go-code-snippet](~/ps/go-code-snippet.md)
+
 ### General Topics
 
 - [DI](~/di.md) — di가 뭐에요?

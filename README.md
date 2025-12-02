@@ -10,10 +10,11 @@
 ##
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 34개)
+### TIL TOC (최근 수정순, 총 35개)
 
-- [Unix Domain Socket](docs/Tech/~/linux/unix-domain-socket.md)
+- [go snippet](docs/Tech/~/ps/go-code-snippet.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
+- [Unix Domain Socket](docs/Tech/~/linux/unix-domain-socket.md)
 - [도커의 컨테이너 구성 방법](docs/Tech/~/container/container-without-docker.md)
 - [GPG KEY](docs/Tech/~/git/gpg-key.md)
 - [nerdctl](docs/Tech/~/container/nerdctl.md)
