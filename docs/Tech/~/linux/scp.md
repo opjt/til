@@ -51,4 +51,4 @@ scp -O file user@host:/path
     | 7. 서버 → OK "\0"
 ```
 
-`SCP` 는 `SCP` 연결 후 stdin/stdout으로 통신하는 구조다 (SSH는 단순히 파이프의 역할을 수행)
+`SCP` 는 `SSH` 연결 후 stdin/stdout으로 통신하는 구조다 (SSH는 단순히 파이프의 역할을 수행)
