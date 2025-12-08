@@ -10,12 +10,13 @@
 ##
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 37개)
+### TIL TOC (최근 수정순, 총 38개)
 
+- [Tech_INDEX](docs/Tech/tech_index.md)
+- [리눅스 프로세스 권한](docs/Tech/~/linux/linux-process-privileges.md)
 - [Defer](docs/go/~/basic/go-defer.md)
 - [GO_INDEX](docs/go/go_index.md)
 - [SCP](docs/Tech/~/linux/scp.md)
-- [Tech_INDEX](docs/Tech/tech_index.md)
 - [go snippet](docs/Tech/~/ps/go-code-snippet.md)
 - [Unix Domain Socket](docs/Tech/~/linux/unix-domain-socket.md)
 - [도커의 컨테이너 구성 방법](docs/Tech/~/container/container-without-docker.md)

@@ -15,6 +15,7 @@ order: 2
 
 ### Linux
 
+- [프로세스 권한](~/linux/linux-process-privileges) - RUID,EUID,SUID
 - [scp](~/linux/scp.md) - scp가 파일을 전송하는 방법
 - [unix-domain-socket](~/linux/unix-domain-socket.md) - 로컬에서 통신하는 친구들
 - [sysctl](~/linux/sysctl.md) - 커널 파라미터
