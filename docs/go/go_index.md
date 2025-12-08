@@ -16,6 +16,7 @@ order: 2
 
 ### Basic
 
+- [defer, panic](~/basic/go-defer.md)
 - [fallthrough](~/basic/fallthrough.md)
 - [Go GOPATH](~/basic/gopath.md)
 - [Go work](~/basic/go-work.md)

@@ -10,8 +10,10 @@
 ##
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 36개)
+### TIL TOC (최근 수정순, 총 37개)
 
+- [Defer](docs/go/~/basic/go-defer.md)
+- [GO_INDEX](docs/go/go_index.md)
 - [SCP](docs/Tech/~/linux/scp.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
 - [go snippet](docs/Tech/~/ps/go-code-snippet.md)
@@ -21,7 +23,6 @@
 - [nerdctl](docs/Tech/~/container/nerdctl.md)
 - [git bare](docs/Tech/~/git/git-init-bare.md)
 - [GO의 TCP 소켓 backlog 이야기](docs/go/~/server/socket-backlog.md)
-- [GO_INDEX](docs/go/go_index.md)
 - [sysctl](docs/Tech/~/linux/sysctl.md)
 - [Linux ldd](docs/Tech/~/linux/linux_ldd.md)
 - [Uber-fx DI framework](docs/go/~/library/uber-fx-0.md)
