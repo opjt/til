@@ -51,6 +51,7 @@ order: 2
 
 > Problem solving (coding challenges)
 
+- [cpp-code-snippet](~/ps/cpp-snippet.md)
 - [go-code-snippet](~/ps/go-code-snippet.md)
 
 ### General Topics
