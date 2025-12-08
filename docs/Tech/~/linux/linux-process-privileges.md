@@ -28,7 +28,7 @@ ps -o pid,euid,ruid,cmd -p <pid>
 
 ## SUID(Set User ID)
 
-`setuid` 프로그램이 원래 권한(EUID)로 돌아가도록 하기 위한 백업 슬롯이다
+[setuid](./rws.md) 프로그램이 원래 권한(EUID)로 돌아가도록 하기 위한 백업 슬롯이다
 
 - `SUID` 프로그램 실행 시 `EUID`가 파일 Owner ID로 바뀜
 - 그 순간의 `EUID` 값을 `Saved UID` 에 저장
