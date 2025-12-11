@@ -15,6 +15,7 @@ order: 2
 
 ### Linux
 
+- [sudoers](~/linux/linux-sudoers.md) - sudo -i, su - 차이
 - [Capability](~/linux/linux-capability.md) - root 권한을 쪼개버려
 - [프로세스 권한](~/linux/linux-process-privileges.md) - RUID,EUID,SUID
 - [scp](~/linux/scp.md) - scp가 파일을 전송하는 방법
