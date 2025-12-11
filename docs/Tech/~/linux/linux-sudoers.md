@@ -19,3 +19,13 @@
 
 - `visudo` 명령어로 수정할 경우 저장 시 문법검사가 이루어짐.
 - 애초에 `r` 권한만 있는 경우도 있음.
+
+## sudoers 예시
+
+`username ALL=(ALL) ALL`
+
+- `username`은 모든 호스트=(어떤 사용자/그룹 권한) 모든 명령어 사용 가능의 의미다
+
+`username ALL=(root) /usr/bin/systemctl restart nginx`
+
+- `username`은 루트 권한으로 위 명령어만 사용 가능.
