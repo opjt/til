@@ -9,7 +9,9 @@
 
 ## linkbook
 
-- [Gin is very bad software library](https://eblog.fly.dev/ginbad.html) go http 라이브러리
+- [google go styleguide](https://google.github.io/styleguide/go/) 구글 go style 가이드
+- [go project-layout](https://github.com/golang-standards/project-layout/blob/master/README_ko.md) 프로젝트 레이아웃 참고
+- [Gin is very bad software library](https://eblog.fly.dev/ginbad.html) http 프레임워크 Gin이 나쁜 이유
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
