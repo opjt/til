@@ -15,6 +15,7 @@ order: 2
 
 ### Linux
 
+- [고아 프로세스](~/linux/linux-orphan-process.md) - 입양된 프로세스
 - [sudoers](~/linux/linux-sudoers.md) - sudo -i, su - 차이
 - [Capability](~/linux/linux-capability.md) - root 권한을 쪼개버려
 - [프로세스 권한](~/linux/linux-process-privileges.md) - RUID,EUID,SUID
