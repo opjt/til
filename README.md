@@ -15,10 +15,11 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 42개)
+### TIL TOC (최근 수정순, 총 43개)
 
-- [Linux Orphan Process](docs/Tech/~/linux/linux-orphan-process.md)
+- [CORS 정책](docs/Tech/~/web/cors.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
+- [Linux Orphan Process](docs/Tech/~/linux/linux-orphan-process.md)
 - [Linux sudoers](docs/Tech/~/linux/linux-sudoers.md)
 - [Linux Capability](docs/Tech/~/linux/linux-capability.md)
 - [CPP code snippet](docs/Tech/~/ps/cpp-snippet.md)

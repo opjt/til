@@ -29,6 +29,7 @@ order: 2
 
 ### Web
 
+- [CORS 정책](~/web/cors.md) - 누가 내 쿠키 훔쳐갔어
 - [HTTP URL Case Sensitivity](~/web/url-case-insensitive.md)
 
 ### Git
