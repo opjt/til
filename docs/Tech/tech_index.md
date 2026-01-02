@@ -41,6 +41,7 @@ order: 2
 
 ### Container
 
+- [k3s 셋업](~/container/k3s-init.md) - 경량 쿠버네티스 배포판인 k3s 설치 스크랩
 - [nerdctl](~/container/nerdctl.md) - contai_Nerdctl
 - [CNCF](~/container/cncf.md)
 - [container-without-docker](~/container/container-without-docker.md) — 컨테이너 돌리려면 무조건 docker 써야하는 거 아닌가요?
