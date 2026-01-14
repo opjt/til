@@ -10,6 +10,9 @@ const vitePressOptions: UserConfig = {
   outDir: '../dist',
   base: '/til/',
   lastUpdated: true,
+  markdown: {
+	math: true
+  },
   head: [
     ['link', {rel: 'icon', href: '/til/favicon.ico'}]
   ],
