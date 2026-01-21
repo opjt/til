@@ -9,6 +9,8 @@
 
 ## linkbook
 
+- [당근페이 백엔드 아키처가 걸어온 여정](https://medium.com/daangn/%EB%8B%B9%EA%B7%BC%ED%8E%98%EC%9D%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EA%B0%80-%EA%B1%B8%EC%96%B4%EC%98%A8-%EC%97%AC%EC%A0%95-98615d5a6b06)
+  정답은 없다
 - [google go styleguide](https://google.github.io/styleguide/go/) 구글 go style 가이드
 - [go project-layout](https://github.com/golang-standards/project-layout/blob/master/README_ko.md) 프로젝트 레이아웃 참고
 - [Gin is very bad software library](https://eblog.fly.dev/ginbad.html) http 프레임워크 Gin이 나쁜 이유
