@@ -16,6 +16,7 @@ order: 2
 
 ### Basic
 
+- [underyling-type](~/basic/underlying-type.md) ~string | ~int 문법
 - [defer, panic](~/basic/go-defer.md)
 - [fallthrough](~/basic/fallthrough.md)
 - [Go GOPATH](~/basic/gopath.md)

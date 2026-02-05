@@ -17,8 +17,10 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 46개)
+### TIL TOC (최근 수정순, 총 47개)
 
+- [GO_INDEX](docs/go/go_index.md)
+- [근사 타입](docs/go/~/basic/underlying-type.md)
 - [하이퍼바이저 Hypervisor](docs/Tech/~/container/hypervisor.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
 - [Diffie-Hellman Algorithm](docs/Tech/~/security/diffie-hellman.md)
@@ -30,7 +32,6 @@
 - [CPP code snippet](docs/Tech/~/ps/cpp-snippet.md)
 - [리눅스 프로세스 권한](docs/Tech/~/linux/linux-process-privileges.md)
 - [Defer](docs/go/~/basic/go-defer.md)
-- [GO_INDEX](docs/go/go_index.md)
 - [SCP](docs/Tech/~/linux/scp.md)
 - [go snippet](docs/Tech/~/ps/go-code-snippet.md)
 - [Unix Domain Socket](docs/Tech/~/linux/unix-domain-socket.md)
