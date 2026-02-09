@@ -54,16 +54,17 @@ order: 2
 - [AES](~/security/aes-crypt.md)
 - [pubkey](~/security/public-key-crypto.md) — 공개키 암호 방식의 이해
 
+### General Topics
+
+- [한글 인코딩](~/general/hangeul-encoding.md) - 콤퓨타는 어떻게 한글을 읽는가?
+- [DI](~/di.md) — di가 뭐에요?
+- [MSA](~/msa.md) — msa를 알아봅시다
+- [shell](~/shell.md) — 로그인쉘 비로그인쉘 차이를 아시나요
+- [socket](~/socket.md) — 소켓? 웹소켓 말씀하시는 건가요?
+
 ### PS
 
 > Problem solving (coding challenges)
 
 - [cpp-code-snippet](~/ps/cpp-snippet.md)
 - [go-code-snippet](~/ps/go-code-snippet.md)
-
-### General Topics
-
-- [DI](~/di.md) — di가 뭐에요?
-- [MSA](~/msa.md) — msa를 알아봅시다
-- [shell](~/shell.md) — 로그인쉘 비로그인쉘 차이를 아시나요
-- [socket](~/socket.md) — 소켓? 웹소켓 말씀하시는 건가요?
