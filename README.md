@@ -17,11 +17,12 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 48개)
+### TIL TOC (최근 수정순, 총 49개)
 
-- [한글](docs/Tech/~/general/hangeul-encoding.md)
-- [Tech_INDEX](docs/Tech/tech_index.md)
+- [컴퓨터가 한글을 처리하는 방법](docs/Tech/~/general/hangeul-encoding.md)
+- [TIL: exec.CommandContext에서 `signal: killed` vs `context deadline exceeded`](docs/go/~/exec-context-timeout.md)
 - [GO_INDEX](docs/go/go_index.md)
+- [Tech_INDEX](docs/Tech/tech_index.md)
 - [근사 타입](docs/go/~/basic/underlying-type.md)
 - [하이퍼바이저 Hypervisor](docs/Tech/~/container/hypervisor.md)
 - [Diffie-Hellman Algorithm](docs/Tech/~/security/diffie-hellman.md)

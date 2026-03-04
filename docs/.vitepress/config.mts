@@ -37,10 +37,10 @@ const vitePressOptions: UserConfig = {
 const vitePressSidebarConfig: VitePressSidebarOptions = {
 	documentRootPath: 'docs',
 	collapseDepth: 2,
-	capitalizeFirst: true,
+	capitalizeFirst: false,
 	underscoreToSpace: false,
   excludeFilesByFrontmatterFieldName: "hide", //hide 옵션이 켜져있는 파일 disable
-	useTitleFromFileHeading: true, 
+	useTitleFromFileHeading: false, // 제목을 H1으로 사용하는 옵션
 	useTitleFromFrontmatter: true,
   sortMenusByFrontmatterOrder: true, // order 값을 통해 순서 정렬
 };

@@ -25,3 +25,7 @@ order: 2
 ### Library
 
 - [uber-fx-0](~/library/uber-fx-0.md)
+
+### Gotcha
+
+- [exec.CommandContext timeout](~/exec-context-timeout.md)
