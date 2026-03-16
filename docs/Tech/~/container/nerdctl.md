@@ -2,10 +2,31 @@
 
 - [nerdctl.git](https://github.com/containerd/nerdctl)
 
-nerdctl은 `containerd` 를CLI로 다룰 수 있게 해주는 명령어 도구입니다.
+nerdctl은 `Docker CLI`처럼 컨테이너를 쉽게 다룰 수 있는 CLI 도구입니다. 단, Docker와 달리 `dockerd` 없이 `containerd`를 직접 사용한다
 
-containerd 는 Go로 만들어진 컨테이너 런타임입니다. [k8s](https://kubernetes.io/ko/docs/setup/production-environment/container-runtimes/#containerd)에서도
-컨테이너를 돌리기 위해 사용할 수 있고, Docker에서도 내부적으로 containerd를 사용합니다.
+## Docker와의 차이
+
+Docker는 `dockerd`라는 중간 데몬을 거친다.
+
+```bash
+docker CLI → dockerd → containerd  → runc
+```
+
+nerdctl은 dockerd 없이 containerd를 직접 찌른다.
+
+```bash
+nerdctl → containerd → runc
+```
+
+명령어 인터페이스는 Docker와 호환되도록 설계되어 있어서 `docker` 를 `nerdctl` 로 바꿔써도 대부분 동작한다.
+
+```bash
+# 거의 동일하게 동작
+docker run -it alpine sh
+nerdctl run -it alpine sh
+```
+
+dockerd가 없으니 그만큼 가볍고, containerd를 직접 다루기 때문에 Kubernetes 환경과 동일한 런타임 스택을 로컬에서 쓸 수 있다는 장점이 있다
 
 ## Mac 에서 사용하는 방법
 
@@ -59,7 +80,7 @@ For more examples and ideas, visit:
 
 `~/.lima/default/lima.yaml` 를 살펴보면
 
-```
+```yaml
 # default/lima.yaml
 containerd:
   # Enable system-wide (aka rootful)  containerd and its dependencies (BuildKit, Stargz Snapshotter)
@@ -76,7 +97,6 @@ containerd:
 #  - location: "~/Downloads/nerdctl-full-X.Y.Z-linux-amd64.tar.gz"
 #    arch: "x86_64"
 #    digest: "sha256:..."
-
 ```
 
 user 부분을 보면 default: true로 되어있는 부분을 통해 rootless로 containerd와 nerdctl을 사용할 수 있습니다.
