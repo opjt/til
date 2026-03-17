@@ -8,13 +8,9 @@ order: 2
 
 ##
 
-### Network
-
-- [RFC](./~/network/rfc.md)
-- [MTU](./~/network/mtu.md)
-
 ### Linux
 
+- [KVM](~/linux/kvm.md) - 리눅스 커널이 하이퍼바이저 역할을?
 - [고아 프로세스](~/linux/linux-orphan-process.md) - 입양된 프로세스
 - [sudoers](~/linux/linux-sudoers.md) - sudo -i, su - 차이
 - [Capability](~/linux/linux-capability.md) - root 권한을 쪼개버려
@@ -36,6 +32,11 @@ order: 2
 - [CNCF](~/container/cncf.md)
 - [container-without-docker](~/container/container-without-docker.md) — 컨테이너 돌리려면 무조건 docker 써야하는 거 아닌가요?
 - [k8s init](~/container/init-install.md) - k8s 설정
+
+### Network
+
+- [RFC](./~/network/rfc.md)
+- [MTU](./~/network/mtu.md)
 
 ### Security
 
