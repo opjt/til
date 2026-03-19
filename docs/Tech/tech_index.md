@@ -10,6 +10,7 @@ order: 2
 
 ### Linux
 
+- [x86 Real Mode](~/linux/x86-real-mode.md) - 8086 cpu부터 전해진...
 - [ioctl](~/linux/ioctl.md) - io 제어하기
 - [KVM](~/linux/kvm.md) - 리눅스 커널이 하이퍼바이저 역할을?
 - [고아 프로세스](~/linux/linux-orphan-process.md) - 입양된 프로세스
