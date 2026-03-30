@@ -36,5 +36,24 @@ syncookies는 소켓을 `SYN-Backlog`에 저장하지 않아 근본적인 문제
 
 ### 문제점
 
-원래 SYN 패킷에 옵션 정보(SACK, Window Scale, Timestamp 등)가 담기는데  
-syncookie는 seq 번호에 연결 정보를 우겨넣어야 해서 공간이 부족해 이 옵션들이 손실될 수 있다
+원래 SYN 패킷에 옵션 정보(SACK, Window Scale, Timestamp 등)이 담긴다.  
+SYN cookie는 SYN 패킷을 저장하지 않기 때문에 ACK가 돌아왔을 때 이옵션을 복원할 방법이 없다.
+
+**Linux의 부분적 해결**
+
+Timestamp 옵션은 예외적으로 매 패킷마다 echo back되는 구조(`TSval -> TSecr`)를 활용한다.  
+서버가 SYN-ACK 의 TSval 필드에 WScale, SACK 같은 정보를 담아서 보내면 클라이언트가 ACK의 TSecr를 그대로 돌려주기 때문에 이를 사용한다
+
+- 이 방법은 클라이언트가 Timestamp 옵션을 지원하는 경우에만 가능하다.
+
+Timestamp 옵션 구조 (kind=8)
+
+```text
++-------+-------+---------------------+---------------------+
+| Kind=8| Len=10|       TSval         |       TSecr         |
++-------+-------+---------------------+---------------------+
+  1byte   1byte        4byte                 4byte
+```
+
+- `TSval`: 보내는 쪽이 찍는 현재 시각 timestamp value
+- `TSecr`: 상대방이 보낸 `TSval`을 그대로 돌려주는 값 timestamp echo reply

@@ -19,8 +19,8 @@
 <!-- AUTO_TOC_START -->
 ### TIL TOC (최근 수정순, 총 54개)
 
-- [Tech_INDEX](docs/Tech/tech_index.md)
 - [syn-flooding](docs/Tech/~/security/syn-flooding.md)
+- [Tech_INDEX](docs/Tech/tech_index.md)
 - [x86 real mode](docs/Tech/~/linux/x86-real-mode.md)
 - [ioctl](docs/Tech/~/linux/ioctl.md)
 - [KVM(Kernel-based Virtual Machine)](docs/Tech/~/linux/kvm.md)
