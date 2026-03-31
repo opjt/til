@@ -37,6 +37,7 @@ order: 2
 
 ### Network
 
+- [BGP](./~/network/bgp.md) - AS 간 이동은 어떻게?
 - [RFC](./~/network/rfc.md)
 - [MTU](./~/network/mtu.md)
 

@@ -17,10 +17,11 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 54개)
+### TIL TOC (최근 수정순, 총 55개)
 
-- [syn-flooding](docs/Tech/~/security/syn-flooding.md)
+- [BGP (Border Gateway Protocol)](docs/Tech/~/network/bgp.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
+- [syn-flooding](docs/Tech/~/security/syn-flooding.md)
 - [x86 real mode](docs/Tech/~/linux/x86-real-mode.md)
 - [ioctl](docs/Tech/~/linux/ioctl.md)
 - [KVM(Kernel-based Virtual Machine)](docs/Tech/~/linux/kvm.md)
