@@ -16,6 +16,7 @@ order: 2
 
 ### Basic
 
+- [Garbage Collector](~/basic/go-gc.md) - Go가 세상에 나온 이유와 GC에 대해
 - [underyling-type](~/basic/underlying-type.md) ~string | ~int 문법
 - [defer, panic](~/basic/go-defer.md)
 - [fallthrough](~/basic/fallthrough.md)
