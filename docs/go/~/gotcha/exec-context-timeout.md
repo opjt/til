@@ -23,7 +23,7 @@ fmt.Println(err) // "signal: killed"
 
 `context.DeadlineExceeded`는 ctx 자체에 담겨 있고, `cmd.Run()`의 반환값에는 담기지 않는다.
 
-```
+```text
 ctx.Err()   → context.DeadlineExceeded
 cmd.Run()   → "signal: killed"          ← OS가 프로세스를 죽인 결과
 ```
@@ -46,7 +46,7 @@ if err != nil {
 
 ## 에러 흐름 정리
 
-```
+```text
 timeout 발생
     └─▶ ctx 내부에 DeadlineExceeded 저장  →  ctx.Err() == DeadlineExceeded
     └─▶ exec이 프로세스에 SIGKILL 전송    →  cmd.Run() == "signal: killed"

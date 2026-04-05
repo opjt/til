@@ -6,9 +6,10 @@ order: 2
 
 ##
 
-### Style-guide
+### Gotcha
 
-- [Verify Interface Compliance(인터페이스 검증)](~/style-guide/verify-interface-compliance.md)
+- [0으로 나누면 패닉이 발생해요](~/gotcha/divide-by-zero.md)
+- [exec.CommandContext timeout](~/gotcha/exec-context-timeout.md)
 
 ### Server
 
@@ -23,10 +24,10 @@ order: 2
 - [Go GOPATH](~/basic/gopath.md)
 - [Go work](~/basic/go-work.md)
 
+### Style-guide
+
+- [Verify Interface Compliance(인터페이스 검증)](~/style-guide/verify-interface-compliance.md)
+
 ### Library
 
 - [uber-fx-0](~/library/uber-fx-0.md)
-
-### Gotcha
-
-- [exec.CommandContext timeout](~/exec-context-timeout.md)
