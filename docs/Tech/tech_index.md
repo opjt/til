@@ -27,6 +27,7 @@ order: 2
 
 ### Container
 
+- [k8s 아키텍처](~/container/k8s-arch.md) - 컨테이너가 올라오는 과정을 알아보자
 - [컨테이너 런타임 레이어](~/container/container-runtime-layer.md) - 다 똑같은 컨테이너 런타임이 아니다
 - [하이퍼바이저 hypervisor](~/container/hypervisor) - VM을 알아야 컨테이너도 안다
 - [k3s 셋업](~/container/k3s-init.md) - 경량 쿠버네티스 배포판인 k3s 설치 스크랩

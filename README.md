@@ -17,14 +17,15 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 57개)
+### TIL TOC (최근 수정순, 총 58개)
 
+- [Tech_INDEX](docs/Tech/tech_index.md)
+- [Kubernetes Architecture](docs/Tech/~/container/k8s-arch.md)
 - [GO_INDEX](docs/go/go_index.md)
 - [왜 정수 0으로 나누면 패닉이 떨어질까?](docs/go/~/gotcha/divide-by-zero.md)
 - [TIL: exec.CommandContext에서 `signal: killed` vs `context deadline exceeded`](docs/go/~/gotcha/exec-context-timeout.md)
 - [Go GC](docs/go/~/basic/go-gc.md)
 - [BGP (Border Gateway Protocol)](docs/Tech/~/network/bgp.md)
-- [Tech_INDEX](docs/Tech/tech_index.md)
 - [syn-flooding](docs/Tech/~/security/syn-flooding.md)
 - [x86 real mode](docs/Tech/~/linux/x86-real-mode.md)
 - [ioctl](docs/Tech/~/linux/ioctl.md)

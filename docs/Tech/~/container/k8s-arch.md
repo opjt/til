@@ -1,0 +1,68 @@
+# Kubernetes Architecture
+
+쿠버네티스의 아키텍처에 대해 살펴보자
+
+- <https://kubernetes.io/ko/docs/concepts/architecture/>
+
+쿠버네티스 클러스터는 `Control Plane`과 `Node`라고 불리는 일련의 워커 머신으로 구성되어 있다.  
+이 노드들은 컨테이너화된 어플리케이션을 실행한다  
+모든 클러스터에는 Pod를 실행하기 위해 반드시 하나의 워커 노드가 필요하다.
+
+- 워커노드는 Pod, 어플리케이션을 호스팅한다.
+- 컨트롤 플레인은 워커노드와 Pod를 관리한다.
+
+## Control Plane
+
+클러스터의 전체 상태를 관리한다.
+
+일반적으로 클러스터는 여러개의 워커노드를 지니기 때문에 이런 노드들을 관리하는 두뇌역할이 필요하다.
+
+**Kube-apiserver**
+
+- 쿠버네티스의 모든 요청을 받는 프론트엔드이다.
+- HTTP API를 노출하여 클러스터에 요청을 보낼 수 있도록 한다.
+
+**etcd**
+
+- 클러스터의 상태를 저장하는 분산 상태 저장소이다
+
+**kube-scheduler**
+
+- 아직 노드에 할당되지 않은 Pod를 찾아 적절한 노드를 배정해준다
+
+## Node Component
+
+모든 노드에 실행되며, 컨트롤 플레인에서 받은 요청을 해당 노드에 반영하게 한다  
+실행 중인 파드를 관리하고 컨테이너 런타임을 제공함
+
+**kubelet**
+
+- 노드에 상주하는 에이전트로 Pod(컨테이너)를 모니터링하고 관리한다.
+
+**Container Runtime**
+
+- 컨테이너 런타임은 컨테이너 실행을 담당하는 소프트웨어다
+- Kubelet이 Pod를 관리하고 컨테이너 런타임에게 요청을 보내 컨테이너를 생성하거나 삭제한다
+
+## k8s에서 컨테이너가 올라오는 과정
+
+쿠버네티스의 모든 요청은 kube-apiserver를 통한다.
+
+- etcd에 접근할 수 있는 컴포넌트는 apiserver 뿐이다
+- 다른 컴포넌트들은 kube-apiserver를 watch하여 작업을 수행한다.
+
+먼저 `kubectl` cli를 통해 명령어를 입력할 경우 해당 요청이 쿠버네티스의 프론트엔드인 `kube-apiserver`로 향한다.
+
+이후 apiserver는 `etcd`에 요청 받은 Pod의 상태를 저장한다.
+
+스케줄러가 apiserver를 Watch하다가 nodeName이 없는 Pod 이벤트를 받으면 적절한 Node를 선택해서 apiserver에 nodeName 업데이트 요청을 보낸다.
+
+kubelet은 자신의 노드에 새로운 Pod가 감지되면 Container Runtime에게 요청을 보낸다.  
+정상적으로 Pod가 기동되면 마지막으로 apiserver에게 상태를 전달한다.
+
+<!--
+헷갈리 만한 포인트가 각 구성들이 api-server를 통해 동작을 수행한다는 점임
+스케줄러가 kubelet에게 직접 요청하는 구조가 아니다.
+이러한 점이 쿠버네티스가 스케일러블한 이유(모듈간의 결합도가 없음)
+
+-->
