@@ -38,6 +38,7 @@ order: 2
 
 ### Network
 
+- [브라우저 웹사이트 접속과정](./~/network/how_web_works.md) - 주소창에 google을 검색하면?
 - [BGP](./~/network/bgp.md) - AS 간 이동은 어떻게?
 - [RFC](./~/network/rfc.md)
 - [MTU](./~/network/mtu.md)

@@ -17,8 +17,9 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 58개)
+### TIL TOC (최근 수정순, 총 59개)
 
+- [브라우저에서 웹사이트 접속 과정](docs/Tech/~/network/how_web_works.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
 - [Kubernetes Architecture](docs/Tech/~/container/k8s-arch.md)
 - [GO_INDEX](docs/go/go_index.md)
