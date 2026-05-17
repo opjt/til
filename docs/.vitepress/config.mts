@@ -1,12 +1,18 @@
-import { defineConfig, UserConfig } from 'vitepress'
+import { UserConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar';
 import { VitePressSidebarOptions } from 'vitepress-sidebar/types';
+import { withMermaid } from 'vitepress-plugin-mermaid';
 
 
 
 const vitePressOptions: UserConfig = {
   // VitePress의 옵션
   title: "TIL",
+  vite: {
+    optimizeDeps: {
+      include: ['mermaid'],
+    },
+  },
   outDir: '../dist',
   base: '/til/',
   lastUpdated: true,
@@ -46,4 +52,4 @@ const vitePressSidebarConfig: VitePressSidebarOptions = {
 };
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarConfig))
+export default withMermaid(withSidebar(vitePressOptions, vitePressSidebarConfig))

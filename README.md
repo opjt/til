@@ -17,10 +17,12 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 59개)
+### TIL TOC (최근 수정순, 총 61개)
 
-- [브라우저에서 웹사이트 접속 과정](docs/Tech/~/network/how_web_works.md)
+- [OAuth](docs/Tech/~/security/oauth.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
+- [OpenID Connect (OIDC)](docs/Tech/~/security/oidc.md)
+- [브라우저에서 웹사이트 접속 과정](docs/Tech/~/network/how_web_works.md)
 - [Kubernetes Architecture](docs/Tech/~/container/k8s-arch.md)
 - [GO_INDEX](docs/go/go_index.md)
 - [왜 정수 0으로 나누면 패닉이 떨어질까?](docs/go/~/gotcha/divide-by-zero.md)

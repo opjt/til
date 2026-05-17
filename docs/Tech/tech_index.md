@@ -45,6 +45,7 @@ order: 2
 
 ### Security
 
+- [OIDC](~/security/oidc.md) - OIDC, OAuth 그만 헷갈려
 - [syn-flooding](~/security/syn-flooding) - syncookie
 - [Diffie-Hellman Algorithm](~/security/diffie-hellman.md) - 대칭키를 어떻게 주고 받을까
 - [AES](~/security/aes-crypt.md)
