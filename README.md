@@ -17,8 +17,9 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 61개)
+### TIL TOC (최근 수정순, 총 62개)
 
+- [CH01](docs/Study/infra-with-claude/ch-01.md)
 - [OAuth](docs/Tech/~/security/oauth.md)
 - [Tech_INDEX](docs/Tech/tech_index.md)
 - [OpenID Connect (OIDC)](docs/Tech/~/security/oidc.md)
