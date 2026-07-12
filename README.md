@@ -17,8 +17,9 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 64개)
+### TIL TOC (최근 수정순, 총 65개)
 
+- [CH04 - Observability](docs/Study/infra-with-claude/ch-04.md)
 - [CH03 - GitOps 도입](docs/Study/infra-with-claude/ch-03.md)
 - [CH02 - 환경 구성](docs/Study/infra-with-claude/ch-02.md)
 - [CH01](docs/Study/infra-with-claude/ch-01.md)
