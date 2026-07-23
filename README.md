@@ -17,8 +17,9 @@
 - [Building a container from scratch in Go - Liz Rice](https://www.youtube.com/watch?v=Utf-A4rODH8) 컨테이너 런타임
 
 <!-- AUTO_TOC_START -->
-### TIL TOC (최근 수정순, 총 67개)
+### TIL TOC (최근 수정순, 총 68개)
 
+- [CH07 - 규모 확장](docs/Study/infra-with-claude/ch-07.md)
 - [CH06 - 엔터프라이즈를 위한 기반 재정비](docs/Study/infra-with-claude/ch-06.md)
 - [CH05 - 무중단 배포](docs/Study/infra-with-claude/ch-05.md)
 - [CH04 - Observability](docs/Study/infra-with-claude/ch-04.md)
